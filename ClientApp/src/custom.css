@@ -1,0 +1,52 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.modal {
+    height: auto;
+    top: auto;
+    left: auto;
+    bottom: auto;
+    right: auto;
+}
+
+.divList{
+    margin-top:20px;
+}
+
+.error-text {
+    color: red;
+    margin-top: 4px; 
+    font-size: 14px;
+}
+
+.ui.pagination.menu .active.item.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.container__table {
+    height: 300px;
+    overflow-y: auto;
+}
+
+.icon-sort {
+    color: #bab6b6;
+    font-size:xx-small;
+    margin: 0 0 0 4px;
+}
